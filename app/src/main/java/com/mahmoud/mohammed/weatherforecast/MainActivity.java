@@ -79,9 +79,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void loadWeatherData() {
-        //Deafult coord location (London)
-        double lon = -0.1258;
-        double lat = 51.5085;
+        //Deafult coord location (Cairo)
+        double lon=31.2357;
+        double lat = 30.0444;
         String url = NetworkUtils.buildUrl(this, lon, lat, NetworkUtils.weeklyDays);
         sendJsonRequest(url);
     }
