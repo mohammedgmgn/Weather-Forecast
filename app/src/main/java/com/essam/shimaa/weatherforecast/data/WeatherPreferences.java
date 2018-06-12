@@ -1,11 +1,10 @@
-package com.mahmoud.mohammed.weatherforecast.data;
+package com.essam.shimaa.weatherforecast.data;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
-import com.mahmoud.mohammed.weatherforecast.model.WeatherModel;
 
 import java.util.List;
 

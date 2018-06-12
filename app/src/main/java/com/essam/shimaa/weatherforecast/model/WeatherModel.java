@@ -1,4 +1,4 @@
-package com.mahmoud.mohammed.weatherforecast.model;
+package com.essam.shimaa.weatherforecast.model;
 
 /**
  * Created by siko on 6/24/2017.

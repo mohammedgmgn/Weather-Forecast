@@ -1,4 +1,4 @@
-package com.mahmoud.mohammed.weatherforecast;
+package com.essam.shimaa.weatherforecast;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,14 +17,14 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.essam.shimaa.weatherforecast.data.WeatherPreferences;
+import com.essam.shimaa.weatherforecast.model.WeatherModel;
+import com.essam.shimaa.weatherforecast.utilities.NetworkUtils;
+import com.essam.shimaa.weatherforecast.utilities.Util;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.ui.PlaceAutocomplete;
-import com.mahmoud.mohammed.weatherforecast.data.WeatherPreferences;
-import com.mahmoud.mohammed.weatherforecast.model.WeatherModel;
-import com.mahmoud.mohammed.weatherforecast.utilities.NetworkUtils;
-import com.mahmoud.mohammed.weatherforecast.utilities.Util;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView.setLayoutManager(layoutManager);
         mRecyclerView.setHasFixedSize(true);
         MyWeatherData = new ArrayList<>();
+
         if (Util.Operations.isOnline(this)&&savedInstanceState==null) {
                 Toast.makeText(MainActivity.this,"select location from menu",Toast.LENGTH_LONG).show();
             loadWeatherData();

@@ -1,10 +1,11 @@
-package com.mahmoud.mohammed.weatherforecast.utilities;
+package com.essam.shimaa.weatherforecast.utilities;
 
 import android.content.Context;
 import android.net.Uri;
 import android.util.Log;
 
-import com.mahmoud.mohammed.weatherforecast.R;
+
+import com.essam.shimaa.weatherforecast.R;
 
 import java.io.IOException;
 import java.io.InputStream;

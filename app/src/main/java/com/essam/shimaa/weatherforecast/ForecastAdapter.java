@@ -1,4 +1,4 @@
-package com.mahmoud.mohammed.weatherforecast;
+package com.essam.shimaa.weatherforecast;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -8,7 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.mahmoud.mohammed.weatherforecast.model.WeatherModel;
+
+import com.essam.shimaa.weatherforecast.model.WeatherModel;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -153,7 +154,6 @@ public class ForecastAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
 
 
     public interface RecyclerViewClickListener {
-
         void recyclerViewListClicked(View v, int position);
     }
 

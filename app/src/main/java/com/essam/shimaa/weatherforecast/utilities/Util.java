@@ -1,4 +1,4 @@
-package com.mahmoud.mohammed.weatherforecast.utilities;
+package com.essam.shimaa.weatherforecast.utilities;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -7,8 +7,9 @@ import android.location.Geocoder;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import com.mahmoud.mohammed.weatherforecast.data.WeatherPreferences;
-import com.mahmoud.mohammed.weatherforecast.model.WeatherModel;
+
+import com.essam.shimaa.weatherforecast.data.WeatherPreferences;
+import com.essam.shimaa.weatherforecast.model.WeatherModel;
 
 import org.json.JSONArray;
 import org.json.JSONException;
